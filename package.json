@@ -2,7 +2,9 @@
   "name": "aframe-boilerplate",
   "version": "1.0.0",
   "description": "Simple A-Frame boilerplate with server. ",
-  "scripts": {},
+  "scripts": {
+    "start": "browser-sync start -s -f index.html"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/samhoudmedia/aframe-boilerplate.git"
